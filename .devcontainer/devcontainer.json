@@ -1,0 +1,15 @@
+{
+  "name": "DevSecOps Labs",
+  "build": {
+    "dockerfile": "../lab06/Dockerfile",
+    "context": ".."
+  },
+  "runArgs": ["--init"],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools"
+      ]
+    }
+  }
+}
